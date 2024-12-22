@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="bg-[url('tree.jpg')] bg-cover bg-center text-white text-center h-screen w-full py-36 mt-10"
+      className="bg-[url('herbs.jpg')] bg-cover bg-center text-white text-center h-screen w-full py-36 mt-10"
     >
 
       <h2 className="text-5xl font-extrabold mb-4">Nature's Healing Wonders</h2>
