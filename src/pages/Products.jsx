@@ -48,27 +48,27 @@ function Products() {
     },
   ];
 
-  // Function to simulate an API call and add item to the cart
+  
   const handleAddToCart = (productName) => {
-    // Simulate an API call with a timeout
+    
     setTimeout(() => {
       setSuccessMessage(`Successfully added ${productName} to cart!`);
       
-      // Clear the message after 3 seconds
+     
       setTimeout(() => {
         setSuccessMessage("");
       }, 3000);
-    }, 500); // simulate API delay
+    }, 500); 
   };
 
   return (
-    <section id="products" className="bg-green-50 py-5 ">
+    <section id="products" className="bg-green-50 py-20 ">
       <div className="container mx-auto px-6 lg:px-20">
         <h2 className="text-4xl font-bold text-center text-green-700 mb-12">
           Our Herbal Products
         </h2>
 
-        {/* Success Message */}
+       
         {successMessage && (
           <div className="text-center text-green-600 text-xl mb-6">
             {successMessage}
